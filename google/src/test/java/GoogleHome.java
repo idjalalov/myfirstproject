@@ -13,7 +13,7 @@ public class GoogleHome extends Base {
     public void makeSearchList() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         WebElement search = driver.findElement(By.name("q"));
-        search.sendKeys("photo printer");
+        search.sendKeys("laser printer");
         search.submit();
 
 
